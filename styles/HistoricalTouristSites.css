@@ -19,10 +19,6 @@ h2 {
   margin: 0 auto;
 }
 
-.historical-sites {
-  margin-top: 20px;
-}
-
 .site {
   display: flex;
   align-items: center;

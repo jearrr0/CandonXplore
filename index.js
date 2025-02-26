@@ -1,12 +1,27 @@
-/*Carousel Javascript*/
-function rotate() {
-  var lastChild = $('.slider div:last-child').clone();
-  $('.slider div:last-child').remove();
-  $('.slider').prepend(lastChild);
-  lastChild.addClass('firstSlide'); // Fix adding class
+document.querySelector('.menu-icon').addEventListener('click', function() {
+  document.querySelector('nav').classList.toggle('active');
+});
+
+/* Carousel JavaScript */
+let slideIndex = 0;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-//Rotation na every 4 seconds
-window.setInterval(function() {
-  rotate();
+function showSlides(n) {
+  let i;
+  let slides = document.querySelectorAll('.slider img');
+  if (n >= slides.length) { slideIndex = 0 }
+  if (n < 0) { slideIndex = slides.length - 1 }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = 'none';
+  }
+  slides[slideIndex].style.display = 'block';
+}
+
+// Auto slide
+setInterval(function() {
+  plusSlides(1);
 }, 4000);

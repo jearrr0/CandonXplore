@@ -19,11 +19,7 @@ h2 {
   margin: 0 auto;
 }
 
-.historical-sites {
-  margin-top: 20px;
-}
-
-.site {
+.facility {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -33,7 +29,7 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.site img {
+.facility img {
   width: 150px;
   height: 100px;
   margin-right: 20px;

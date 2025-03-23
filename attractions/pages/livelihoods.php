@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/attractions/styles/attractions.css">
+  <link rel="stylesheet" href="livelihoods.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="index.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -17,7 +17,7 @@
     <div class="container">
       <h1>CandonXplore</h1>
       <div class="img">
-        <img src="Pictures/Home/candon-logo.png" alt="CandonXplore Logo"> <!-- Fixed logo path -->
+        <img src="/Pictures/Home/candon-logo.png" alt="CandonXplore Logo"> <!-- Fixed logo path -->
       </div>
       <form>
         <input type="text" name="search" placeholder="Search...">
@@ -26,12 +26,12 @@
       <nav class="nav">
         <ul class="nav-link">
           <li class="link"><a href="/index.html">Home</a></li>
-          <li class="link" id="attractions"><a href="attractions.html">Attractions</a>
+          <li class="link" id="attractions"><a href="/attractions/attractions.html">Attractions</a>
             <ul class="dropdown">
               <li><a href="/attractions/pages/historical-tourist-sites.html">Historical Tourist Sites</a></li>
               <li><a href="/attractions/pages/historical-landsites.html">Historical Landsites</a></li>
               <li><a href="/attractions/pages/recreational-facilities.html">Recreational Facilities</a></li>
-              <li><a href="/attractions/pages/livelihoods.html">Livelihoods</a></li>
+              <li><a href="livelihoods.html">Livelihoods</a></li>
               <li><a href="/attractions/pages/experience.html">Experience</a></li>
             </ul>
           </li>

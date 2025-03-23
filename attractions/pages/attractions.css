@@ -66,13 +66,13 @@ header form button:hover {
 
 .hero {
   background-image: url('Pictures/Home/image-2-1024x724.jpg');
-  background-size: cover;
+
   background-repeat: no-repeat;
   background-position: center;
   color: white;
-  padding: 100px 20px;
+  padding: 100px 20px; /* Increased padding for larger hero section */
   text-align: center;
-  height: 100vh;
+  height: 100vh; /* Make hero section full height */
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;

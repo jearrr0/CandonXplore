@@ -65,7 +65,7 @@ header form button:hover {
 }
 
 .hero {
-  background-image: url('/Pictures/Home/image-2-1024x724.jpg'); /* Fixed background image path */
+  background-image: url('../Pictures/Home/image-2-1024x724.jpg'); /* Adjusted background image path */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

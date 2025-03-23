@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/attractions/styles/livelihoods.css">
+  <link rel="stylesheet" href="recreational-facilities.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <script src="index.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -25,19 +25,19 @@
       </form>
       <nav class="nav">
         <ul class="nav-link">
-          <li class="link"><a href="/index.html">Home</a></li>
-          <li class="link" id="attractions"><a href="/attractions/attractions.html">Attractions</a>
+          <li class="link"><a href="/index.php">Home</a></li>
+          <li class="link" id="attractions"><a href="/attractions/attractions.php">Attractions</a>
             <ul class="dropdown">
-              <li><a href="/attractions/pages/historical-tourist-sites.html">Historical Tourist Sites</a></li>
-              <li><a href="/attractions/pages/historical-landsites.html">Historical Landsites</a></li>
-              <li><a href="/attractions/pages/recreational-facilities.html">Recreational Facilities</a></li>
-              <li><a href="livelihoods.html">Livelihoods</a></li>
-              <li><a href="/attractions/pages/experience.html">Experience</a></li>
+              <li><a href="/attractions/pages/historical-tourist-sites.php">Historical Tourist Sites</a></li>
+              <li><a href="/attractions/pages/historical-landsites.php">Historical Landsites</a></li>
+              <li><a href="recreational-facilities.php">Recreational Facilities</a></li>
+              <li><a href="/attractions/pages/livelihoods.php">Livelihoods</a></li>
+              <li><a href="/attractions/pages/experience.php">Experience</a></li>
             </ul>
           </li>
-          <li class="link"><a href="/Hotels/Hotels.html">Hotels</a></li>
-          <li class="link"><a href="/restaurants/resto.html">Restaurants</a></li> <!-- Updated link -->
-          <li class="link"><a href="/Events/Events.html">Events</a></li>
+          <li class="link"><a href="/Hotels/Hotels.php">Hotels</a></li>
+          <li class="link"><a href="/restaurants/resto.php">Restaurants</a></li> <!-- Updated link -->
+          <li class="link"><a href="/Events/Events.php">Events</a></li>
         </ul>
       </nav>
       <div class="menu-icon">
